@@ -1,0 +1,4 @@
+package com.example.dualstride.ui
+
+class AlertsViewModel {
+}
