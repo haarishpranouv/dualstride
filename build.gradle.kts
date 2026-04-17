@@ -1,60 +1,7 @@
 plugins {
-    id 'com.android.application'
-    id 'org.jetbrains.kotlin.android'
-    id 'com.google.dagger.hilt.android'
-    id 'com.google.gms.google-services'
-    id 'kotlin-kapt'
-}
-
-android {
-    namespace 'com.guardianwear.app'
-    compileSdk 34
-
-    defaultConfig {
-        applicationId "com.guardianwear.app"
-        minSdk 24
-        targetSdk 34
-        versionCode 1
-        versionName "1.0"
-    }
-
-    buildFeatures { compose true }
-
-    composeOptions {
-        kotlinCompilerExtensionVersion '1.5.10'
-    }
-
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17
-                targetCompatibility JavaVersion.VERSION_17
-    }
-
-    kotlinOptions { jvmTarget = '17' }
-}
-
-dependencies {
-    def composeBom = platform('androidx.compose:compose-bom:2024.02.02')
-    implementation composeBom
-            implementation 'androidx.compose.ui:ui'
-    implementation 'androidx.compose.ui:ui-tooling-preview'
-    implementation 'androidx.compose.material3:material3'
-    implementation 'androidx.compose.material:material-icons-extended'
-    implementation 'androidx.activity:activity-compose:1.8.2'
-    implementation 'androidx.lifecycle:lifecycle-runtime-compose:2.7.0'
-    implementation 'androidx.navigation:navigation-compose:2.7.7'
-
-    implementation "com.google.dagger:hilt-android:2.51.1"
-    kapt "com.google.dagger:hilt-compiler:2.51.1"
-    implementation 'androidx.hilt:hilt-navigation-compose:1.2.0'
-
-    def firebaseBom = platform('com.google.firebase:firebase-bom:32.7.4')
-    implementation firebaseBom
-            implementation 'com.google.firebase:firebase-auth-ktx'
-    implementation 'com.google.firebase:firebase-firestore-ktx'
-    implementation 'com.google.firebase:firebase-messaging-ktx'
-    implementation 'com.google.firebase:firebase-database-ktx'
-
-    implementation 'androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0'
-    implementation 'androidx.core:core-ktx:1.12.0'
-    debugImplementation 'androidx.compose.ui:ui-tooling'
+    id("com.android.application")        version "8.3.2" apply false
+    id("com.android.library")            version "8.3.2" apply false
+    id("org.jetbrains.kotlin.android")   version "1.9.22" apply false
+    id("com.google.dagger.hilt.android") version "2.51.1" apply false
+    id("com.google.gms.google-services") version "4.4.1" apply false
 }
