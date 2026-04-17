@@ -1,4 +1,4 @@
-package com.guardianwear.app.util
+package com.example.dualstride.util
 
 import java.text.SimpleDateFormat
 import java.util.*

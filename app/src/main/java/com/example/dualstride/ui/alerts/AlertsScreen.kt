@@ -1,4 +1,4 @@
-package com.guardianwear.app.ui.alerts
+package com.example.dualstride.ui.alerts
 
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
@@ -15,9 +15,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.guardianwear.app.data.model.AlertEvent
-import com.guardianwear.app.ui.theme.*
-import com.guardianwear.app.util.toTimeAgo
+import com.example.dualstride.data.model.AlertEvent
+import com.example.dualstride.ui.theme.*
+import com.example.dualstride.util.toTimeAgo
 
 @Composable
 fun AlertsScreen(viewModel: AlertsViewModel = hiltViewModel()) {

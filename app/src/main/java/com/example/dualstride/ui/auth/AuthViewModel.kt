@@ -1,8 +1,8 @@
-package com.guardianwear.app.ui.auth
+package com.example.dualstride.ui.auth
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.guardianwear.app.data.repository.GuardianRepository
+import com.example.dualstride.data.repository.GuardianRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch

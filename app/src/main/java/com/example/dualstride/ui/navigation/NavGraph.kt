@@ -1,13 +1,13 @@
-package com.guardianwear.app.ui.navigation
+package com.example.dualstride.ui.navigation
 
 import androidx.compose.runtime.*
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.compose.*
-import com.guardianwear.app.ui.auth.AuthViewModel
-import com.guardianwear.app.ui.auth.LoginScreen
-import com.guardianwear.app.ui.auth.RegisterScreen
-import com.guardianwear.app.ui.home.HomeScreen
+import com.example.dualstride.ui.auth.AuthViewModel
+import com.example.dualstride.ui.auth.LoginScreen
+import com.example.dualstride.ui.auth.RegisterScreen
+import com.example.dualstride.ui.home.HomeScreen
 
 sealed class Screen(val route: String) {
     object Login    : Screen("login")

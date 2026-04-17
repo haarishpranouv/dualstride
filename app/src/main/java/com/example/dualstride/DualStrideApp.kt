@@ -1,7 +1,7 @@
-package com.guardianwear.app
+package com.example.dualstride
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
 
 @HiltAndroidApp
-class GuardianWearApp : Application()
+class DualStrideApp : Application()

@@ -1,9 +1,9 @@
-package com.guardianwear.app.ui.alerts
+package com.example.dualstride.ui.alerts
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.guardianwear.app.data.model.AlertEvent
-import com.guardianwear.app.data.repository.GuardianRepository
+import com.example.dualstride.data.model.AlertEvent
+import com.example.dualstride.data.repository.GuardianRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch

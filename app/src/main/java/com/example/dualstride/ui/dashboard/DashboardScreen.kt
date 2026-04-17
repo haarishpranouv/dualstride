@@ -1,4 +1,4 @@
-package com.guardianwear.app.ui.dashboard
+package com.example.dualstride.ui.dashboard
 
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.*
@@ -17,8 +17,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.guardianwear.app.data.model.*
-import com.guardianwear.app.ui.theme.*
+import com.example.dualstride.data.model.*
+import com.example.dualstride.ui.theme.*
 
 @Composable
 fun DashboardScreen(viewModel: DashboardViewModel = hiltViewModel()) {

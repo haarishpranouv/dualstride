@@ -1,4 +1,4 @@
-package com.guardianwear.app.ui.auth
+package com.example.dualstride.ui.auth
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -17,7 +17,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.guardianwear.app.ui.theme.*
+import com.example.dualstride.ui.theme.*
 
 @Composable
 fun LoginScreen(

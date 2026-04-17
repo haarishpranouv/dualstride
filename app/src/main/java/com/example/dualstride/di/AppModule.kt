@@ -1,4 +1,4 @@
-package com.guardianwear.app.di
+package com.example.dualstride.di
 
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.FirebaseDatabase

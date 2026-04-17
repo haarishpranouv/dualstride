@@ -1,10 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- ── Brand Colors ──────────────────────────────────────────────────── -->
+    <color name="teal_400">#FF2DD4BF</color>
+    <color name="teal_900">#FF0D3D36</color>
+    <color name="amber_400">#FFFBBF24</color>
+    <color name="red_400">#FFF87171</color>
+    <color name="blue_400">#FF60A5FA</color>
+    <color name="green_400">#FF4ADE80</color>
+
+    <!-- ── Background Colors ─────────────────────────────────────────────── -->
+    <color name="bg_primary">#FF060910</color>
+    <color name="bg_surface">#FF0C1018</color>
+    <color name="bg_surface2">#FF111520</color>
+    <color name="bg_surface3">#FF171D2A</color>
+
+    <!-- ── Text Colors ───────────────────────────────────────────────────── -->
+    <color name="text_primary">#FFDDE4F0</color>
+    <color name="text_muted">#FF6B7690</color>
+    <color name="text_faint">#FF343C52</color>
+
+    <!-- ── Border Colors ─────────────────────────────────────────────────── -->
+    <color name="border_color">#FF1E2535</color>
+    <color name="border_light">#FF2A3245</color>
+
+    <!-- ── Status Colors ─────────────────────────────────────────────────── -->
+    <color name="status_ok">#FF4ADE80</color>
+    <color name="status_warn">#FFFBBF24</color>
+    <color name="status_danger">#FFF87171</color>
+    <color name="status_critical">#FFEF4444</color>
+
+    <!-- ── Overlay / Glow Colors ─────────────────────────────────────────── -->
+    <color name="teal_glow">#202DD4BF</color>
+    <color name="amber_glow">#1AFBBF24</color>
+    <color name="red_glow">#1AF87171</color>
+    <color name="green_glow">#1A4ADE80</color>
+    <color name="blue_glow">#1A60A5FA</color>
+
+    <!-- ── White / Black ─────────────────────────────────────────────────── -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- ── Material Theme Required ───────────────────────────────────────── -->
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
 </resources>
