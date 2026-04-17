@@ -4,6 +4,7 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 
+// ── Colors ────────────────────────────────────────────────────────────────────
 val Teal400     = Color(0xFF2DD4BF)
 val Teal900     = Color(0xFF0D3D36)
 val Amber400    = Color(0xFFFBBF24)
@@ -18,6 +19,7 @@ val TextPrimary = Color(0xFFDDE4F0)
 val TextMuted   = Color(0xFF6B7690)
 val BorderColor = Color(0xFF1E2535)
 
+// ── Dark color scheme ─────────────────────────────────────────────────────────
 private val DarkColorScheme = darkColorScheme(
     primary          = Teal400,
     onPrimary        = Color(0xFF003731),
@@ -34,6 +36,7 @@ private val DarkColorScheme = darkColorScheme(
     outline          = BorderColor
 )
 
+// ── Theme ─────────────────────────────────────────────────────────────────────
 @Composable
 fun GuardianWearTheme(content: @Composable () -> Unit) {
     MaterialTheme(
